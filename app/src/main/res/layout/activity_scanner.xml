@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ScanQrCodeActivity">
+
+    <com.budiyev.android.codescanner.CodeScannerView
+        android:id="@+id/my_scanner_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:frameAspectRatioHeight="1"
+        app:frameAspectRatioWidth="1"
+        app:frameColor="@android:color/white"
+        app:frameCornersRadius="0dp"
+        app:frameCornersSize="50dp"
+        app:frameSize="0.75"
+        app:frameThickness="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:maskColor="#77000000" >
+
+
+    </com.budiyev.android.codescanner.CodeScannerView>
+
+    <Button
+        android:id="@+id/scan_from_gallery_btn"
+        android:layout_width="220dp"
+        android:layout_height="43dp"
+        android:background="@drawable/bg_btn"
+        android:focusable="true"
+        android:onClick="scanFromGallery"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/scan_code_from_gallery_label"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bug_scan_view_btn"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:background="@drawable/bg_btn"
+        android:focusable="true"
+        android:onClick="refreshScanView"
+        android:layout_marginTop="110dp"
+        android:gravity="center"
+        android:text="@string/bug_scan_view_label"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/results_of_qr"
+        android:layout_width="0dp"
+        android:clickable="true"
+        android:onClick="doSmthWithQrResult"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#FFEE58"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/my_scanner_view"
+        app:layout_constraintVertical_bias="0.89"
+        android:gravity="center_horizontal"
+        android:focusable="true" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

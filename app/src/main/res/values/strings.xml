@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">QR Scanner</string>
+    <string name="result_hint">Результат:</string>
+    <string name="text_input_hint">Введите текст…</string>
+    <string name="successfully_downloaded_toast">Qr-код успешно скачан!</string>
+    <string name="failure_downloaded_toast">Что-то пошло не так ;(</string>
+    <string name="what_you_want_to_do_title">Что вы хотите сделать с вашим QR кодом?</string>
+    <string name="about_app">О приложении</string>
+    <string name="app_naming">Название:</string>
+    <string name="app_version">Версия:</string>
+    <string name="developed_by_label">Разработано:</string>
+    <string name="app_name_label">Qr Сканер</string>
+    <string name="app_version_label">1.0</string>
+    <string name="developer_nickname">Spiral Bit Dev</string>
+    <string name="support_dev_label">Поддержать автора</string>
+    <string name="estimate_app_label">Оценить приложение</string>
+    <string name="settings_app_label">Настройки приложения</string>
+    <string name="cd_label">QR-код</string>
+    <string name="make_call_title">Позвонить</string>
+    <string name="clear_text_title">Очистить</string>
+    <string name="opein_in_browser_title">Открыть в браузере</string>
+    <string name="what_you_want_to_do_with_result">Что вы хотите сделать с результатом сканирования ?</string>
+    <string name="permission_required_toast">Доступ к камере обязателен для сканирования!</string>
+    <string name="hello_title">Привет!) Для того, чтобы начать пользоваться приложением, выбери в меню пункт, который тебе нужен.</string>
+    <string name="help_label">Помощь</string>
+    <string name="exit_app_label">Выход из приложения</string>
+    <string name="clear_cache_label">Очистить кэш</string>
+    <string name="generate_label">Сгенерировать</string>
+    <string name="generate_menu_label">Генерация</string>
+    <string name="scanner_menu_label">Сканер</string>
+    <string name="history_menu_label">История</string>
+    <string name="about_app_menu_label">Инфо</string>
+    <string name="delete_title">Удалить</string>
+    <string name="saved_toast">Сохранено!</string>
+    <string name="scanner_tab_title">Сканер</string>
+    <string name="generation_tab_title">Генерация</string>
+    <string name="cache_deleted_toast">Кэш приложения успешно очищен!</string>
+    <string name="not_ref_error_toast">Это не ссылка на веб-ресурс, ее нельзя открыть в браузере.</string>
+    <string name="warning_word">Внимание! </string>
+    <string name="warning_toast">Эта ссылка имеет небезопасное подключение.</string>
+    <string name="go_option">Перейти</string>
+    <string name="cancel_option">Отмена</string>
+    <string name="scan_code_from_gallery_label">Сканировать Qr-код из галереи</string>
+    <string name="error_empty_field">Введите текст!</string>
+    <string name="now_empty_tv_label">Сейчас здесь пусто. Отсканируйте Qr-код, чтобы исправить это ;)</string>
+    <string name="now_empty_gen_tv_label">Сейчас здесь пусто. Сгенерируйте Qr-код, чтобы исправить это ;)</string>
+    <string name="not_qr_code_error">Это не Qr-код!</string>
+    <string name="not_found_qr">Qr-код не найден! Возможно, он был удален.</string>
+    <string name="type_generate_qr_code_label">Выберите тип Qr-кода:</string>
+    <string name="thanks_toast">Спасибо ;)</string>
+    <string name="select_whom_send_file">Выберите кому нужно отправить файл.</string>
+    <string name="not_place_error">Это не место на карте! Перепроверьте еще раз.</string>
+    <string name="sending_email_label">Отправление письма...</string>
+    <string name="ref_on_video">Ссылка на видео</string>
+    <string name="ref_on_web">Ссылка на веб-страницу</string>
+    <string name="geo_coord">Географические координаты</string>
+    <string name="product">Продукт</string>
+    <string name="contact">Контакт</string>
+    <string name="e_mail">Почта</string>
+    <string name="tap_result_scan_hint_label">Нажмите на результат скана, чтобы взаимодействовать с ним!</string>
+    <string name="date_hint_label">Дата:</string>
+    <string name="full_element_view_title">Полноэкранный просмотр</string>
+    <string name="time_label">Время:</string>
+    <string name="type_label">Тип:</string>
+    <string name="simple_text">Обычный текст</string>
+    <string name="scanner">Сканер</string>
+    <string name="generation">Генерация</string>
+    <string name="select_qr_code">Выберите Qr-код</string>
+    <string name="happens_error_toast">Прозошла непредвиденная ошибка. Извините ;(</string>
+    <string name="not_email_address_toast">Это не адрес электронной почты! Перепроверьте еще раз.</string>
+    <string name="not_contact_toast">Это не контакт! \n Перепроверьте и попробуйте ещё раз.</string>
+    <string name="deleted_toast">Удалено!</string>
+    <string name="subject">Тема:</string>
+    <string name="body">Содержание:</string>
+    <string name="close_option">Закрыть</string>
+    <string name="bug_scan_view_label">Подвисает / Лагает</string>
+    <string-array name="type_of_qr_code">
+        <item>Обычный текст</item>
+        <item>Ссылка на видео</item>
+        <item>Ссылка на веб-страницу</item>
+        <item>Продукт</item>
+        <item>Географические координаты</item>
+        <item>Контакт</item>
+        <item>Почта</item>
+    </string-array>
+</resources>

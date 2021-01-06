@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/qr_code_generate"
+        android:icon="@drawable/ic_qr_generate"
+        android:title="@string/generate_menu_label"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/qr_code_scan"
+        android:icon="@drawable/ic_qr_scan"
+        android:title="@string/scanner_menu_label"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/qr_code_history"
+        android:icon="@drawable/ic_qr_history"
+        android:title="@string/history_menu_label"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/qr_code_about"
+        android:icon="@drawable/qr_info"
+        android:title="@string/about_app_menu_label"
+        app:showAsAction="always" />
+
+
+</menu>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QR Scanner</string>
+    <string name="result_hint">Result:</string>
+    <string name="text_input_hint">Enter a value of your Qr-code</string>
+    <string name="successfully_downloaded_toast">Qr-код successfully downloaded!</string>
+    <string name="failure_downloaded_toast">Something went wrong ;(</string>
+    <string name="what_you_want_to_do_title">What you want to do with your Qr-code?</string>
+    <string name="about_app">About App</string>
+    <string name="app_naming">Name:</string>
+    <string name="app_version">Version:</string>
+    <string name="developed_by_label">Developed:</string>
+    <string name="app_name_label">Qr Scanner</string>
+    <string name="app_version_label">1.0</string>
+    <string name="developer_nickname">Spiral Bit Dev</string>
+    <string name="support_dev_label">Support Author</string>
+    <string name="estimate_app_label">Estimate App</string>
+    <string name="settings_app_label">App settings</string>
+    <string name="cd_label">QR-code</string>
+    <string name="make_call_title">Call</string>
+    <string name="clear_text_title">Clear</string>
+    <string name="opein_in_browser_title">Open in browser</string>
+    <string name="what_you_want_to_do_with_result">What you want to do with result of scan?</string>
+    <string name="permission_required_toast">Permission required to well-work app!</string>
+    <string name="hello_title">Hello!) In order to start using the application, select the item you need from the menu.</string>
+    <string name="help_label">Help</string>
+    <string name="exit_app_label">Exit</string>
+    <string name="clear_cache_label">Delete cache</string>
+    <string name="generate_label">Generate</string>
+    <string name="generate_menu_label">GENERATE</string>
+    <string name="scanner_menu_label">SCANNER</string>
+    <string name="history_menu_label">HISTORY</string>
+    <string name="about_app_menu_label">ABOUT APP</string>
+    <string name="delete_title">Delete</string>
+    <string name="saved_toast">Saved!</string>
+    <string name="scanner_tab_title">Scanner</string>
+    <string name="generation_tab_title">Generation</string>
+    <string name="cache_deleted_toast">App cache was successfully cleared!</string>
+    <string name="not_ref_error_toast">This is not a reference on a web-page, it can\'t open with browser.</string>
+    <string name="warning_word">Attention! </string>
+    <string name="warning_toast">This link has an insecure connection.</string>
+    <string name="go_option">Go</string>
+    <string name="cancel_option">Cancel</string>>
+    <string name="scan_code_from_gallery_label">Scan Qr-code from gallery</string>
+    <string name="error_empty_field">Please, enter text!</string>
+    <string name="now_empty_tv_label">It\'s empty now. Scan a Qr code to fix this ;)</string>
+    <string name="now_empty_gen_tv_label">It\'s empty now. Generate a Qr code to fix this ;)</string>
+    <string name="not_qr_code_error">This image isn\'t Qr-code!</string>
+    <string name="not_found_qr">Qr-code not found! May be, it was deleted.</string>
+    <string name="type_generate_qr_code_label">Select a type of Qr-code.</string>
+    <string name="thanks_toast">Thanks ;)</string>
+    <string name="select_whom_send_file">Select whom send a file.</string>
+    <string name="not_place_error">This is not a place on maps! Check this and try again.</string>
+    <string name="sending_email_label">Send letter…</string>
+    <string name="ref_on_video">Reference on video</string>
+    <string name="ref_on_web">Reference on web-page</string>
+    <string name="geo_coord">Geographic coordinates</string>
+    <string name="product">Product</string>
+    <string name="contact">Contact</string>
+    <string name="e_mail">E-mail</string>
+    <string name="tap_result_scan_hint_label">Tap to result of scan, to interact with it!</string>
+    <string name="date_hint_label">Date:</string>
+    <string name="full_element_view_title">Full image view</string>
+    <string name="time_label">Time:</string>
+    <string name="type_label">Type:</string>
+    <string name="simple_text">Simple text</string>
+    <string name="scanner">Scanner</string>
+    <string name="generation">Generation</string>
+    <string name="select_qr_code">Select a Qr-code</string>
+    <string name="happens_error_toast">Unknown error happens. Sorry ;(</string>
+    <string name="not_email_address_toast">This is not a email address! Check and try again</string>
+    <string name="not_contact_toast">This is not a contact! \n Check and try again</string>
+    <string name="deleted_toast">Deleted!</string>
+    <string name="subject">Subject:</string>
+    <string name="body">Body:</string>
+    <string name="close_option">Close</string>
+    <string-array name="type_of_qr_code">
+        <item>Simple text</item>
+        <item>Youtube reference</item>
+        <item>Web reference</item>
+        <item>Product</item>
+        <item>Geo coordinates</item>
+        <item>Contact</item>
+        <item>E-mail</item>
+    </string-array>
+</resources>
